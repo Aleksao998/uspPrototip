@@ -1,0 +1,26 @@
+.rowHeightProfile {
+  margin-top: 200px;
+  height: 400px;
+}
+@media only screen and (max-width: 700px) {
+  .rowHeightProfile {
+    margin-top: 20px;
+    height: 800px;
+  }
+}
+.b-10 {
+  border: 10px solid white;
+}
+
+.profileHeader {
+  text-align: center;
+  padding-top: 35%;
+  color: white;
+}
+@media only screen and (max-width: 700px) {
+  .profileHeader {
+    text-align: center;
+    padding-top: 0;
+    color: white;
+  }
+}
